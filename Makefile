@@ -1,5 +1,5 @@
 run:
-	g++ $(name).cpp -o output
+	clang $(name).cpp -o output
 	./output
 
 .DEFAULT_GOAL:=run
